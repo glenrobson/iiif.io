@@ -18,7 +18,6 @@ jdk:
   - oraclejdk8
 
 branches:
-  - 'master'
 
 notifications:
   email:
