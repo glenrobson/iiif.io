@@ -1,5 +1,7 @@
 sudo: false
 
+dist: precise
+
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - npm install -g grunt-cli
