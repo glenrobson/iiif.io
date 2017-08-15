@@ -21,6 +21,7 @@ task :ci do
   sh 'scripts/check_json.py -v'
   Rake::Task['spec'].invoke
   Rake::Task['check_internal_links'].invoke
+  Rake::Task['check_all_links'].invoke
 end
 
 'Check internal links only without caching'
