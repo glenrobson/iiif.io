@@ -11,7 +11,7 @@ end
 
 def build_site
   jekyll 'clean'
-  jekyll "build --baseurl #{ENV['gitbranch']}"
+  jekyll "build -d _site/#{ENV['gitbranch']} --baseurl #{ENV['gitbranch']}"
 end
 
 'Run the Markdown specs and HTML Proofer'
