@@ -11,7 +11,7 @@
               {% assign class = '' %}
             {% endif %}
             <li>
-              <a href="{{ item.url }}" class="{{ class }}">{{ item.name }}</a>
+              <a href="{{ page.webprefix }}{{ item.url }}" class="{{ class }}">{{ item.name }}</a>
             </li>
           {% endfor %}
           </ul>

@@ -1,15 +1,15 @@
 -
   name: About
-  url: http://iiif.io/about/
+  url: /about/
 -
   name: Technical Details
-  url: http://iiif.io/technical-details/
+  url: /technical-details/
 -
   name: "Apps &amp; Demos"
-  url: http://iiif.io/apps-demos/
+  url: /apps-demos/
 -
   name: Community
-  url: http://iiif.io/community/
+  url: /community/
 -
   name: News
-  url: http://iiif.io/news/
+  url: /news/
