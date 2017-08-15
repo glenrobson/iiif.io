@@ -1465,7 +1465,7 @@ Many thanks to Matthieu Bonicel, Tom Cramer, Ian Davis, Markus Enders, Renhart G
 [image-api]: /api/image/{{ site.image_api.latest.major }}.{{ site.image_api.latest.minor }}/ "Image API"
 [annex]: /api/annex/services/ "Services Annex Document"
 [change-log]: /api/presentation/2.0/change-log/ "Presentation API 2.0 Change Log"
-[iiif-community]: /community/ "IIIF Community"
+[iiif-community]: {{page.webprefix}}/community/ "IIIF Community"
 [apache-notes]: /api/annex/notes/apache/ "Apache HTTP Server Implementation Notes"
 [openanno]: http://www.openannotation.org/spec/core/ "Open Annotation"
 [openannotypes]: http://www.openannotation.org/spec/core/core.html#BodyTargetType

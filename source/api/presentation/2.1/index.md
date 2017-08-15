@@ -1854,7 +1854,7 @@ Many thanks to the members of the [IIIF][iiif-community] for their continuous en
 [change-log-211]: /api/presentation/2.1/change-log-211/ "Presentation API 2.1.1 Change Log"
 [change-log-21]: /api/presentation/2.1/change-log/ "Presentation API 2.1 Change Log"
 [change-log-20]: /api/presentation/2.0/change-log/ "Presentation API 2.0 Change Log"
-[iiif-community]: /community/ "IIIF Community"
+[iiif-community]: {{page.webprefix}}/community/ "IIIF Community"
 [apache-notes]: /api/annex/notes/apache/ "Apache HTTP Server Implementation Notes"
 [openanno]: http://www.openannotation.org/spec/core/ "Open Annotation"
 [openannotypes]: http://www.openannotation.org/spec/core/core.html#BodyTargetType

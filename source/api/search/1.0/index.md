@@ -723,7 +723,7 @@ Many thanks to the members of the [IIIF][iiif-community] for their continuous en
 [versioning]: /api/annex/notes/semver/ "Versioning of APIs"
 [mellon]: http://www.mellon.org/ "The Andrew W. Mellon Foundation"
 [semver]: http://semver.org/spec/v2.0.0.html "Semantic Versioning 2.0.0"
-[iiif-community]: /community/ "IIIF Community"
+[iiif-community]: {{page.webprefix}}/community/ "IIIF Community"
 [stable-version]: /api/search/{{ site.search_api.latest.major }}.{{ site.search_api.latest.minor }}/ "Stable Version"
 [paging]: /api/presentation/{{ site.presentation_api.latest.major }}.{{ site.image_api.latest.minor }}/
 

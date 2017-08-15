@@ -240,7 +240,7 @@ Thanks to the members of the [IIIF][iiif-community] for their continuous engagem
    [image-api]: /api/image/{{ site.image_api.latest.major }}.{{ site.image_api.latest.minor }}/ "Image API"
    [prezi-api]: /api/presentation/{{ site.presentation_api.latest.major }}.{{ site.presentation_api.latest.minor }}/ "Presentation API"
    [json-ld]: http://www.w3.org/TR/json-ld/ "JSON-LD"
-   [iiif-community]: /community/ "IIIF Community"
+   [iiif-community]: {{page.webprefix}}/community/ "IIIF Community"
    [mellon]: http://www.mellon.org/ "The Andrew W. Mellon Foundation"
    [geojson]: http://geojson.org/ "GeoJSON"
    [geojson-ld]: http://geojson.org/geojson-ld/ "GeoJSON-LD"
