@@ -12,7 +12,7 @@ end
 def build_site
   branchname=`git branch |grep "\*"| sed 's/* //g'`.chomp
   jekyll 'clean'
-  jekyll 'build' --baseurl branchname
+  jekyll 'build' --baseurl "#{branchname}"
 end
 
 'Run the Markdown specs and HTML Proofer'
