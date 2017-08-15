@@ -1865,7 +1865,7 @@ Many thanks to the members of the [IIIF][iiif-community] for their continuous en
 [json-ld-68]: http://www.w3.org/TR/json-ld/#interpreting-json-as-json-ld "Interpreting JSON as JSON-LD"
 [rfc5646]: http://tools.ietf.org/html/rfc5646 "RFC 5646"
 [media-frags]: http://www.w3.org/TR/media-frags/#naming-space "Media Fragments"
-[xpath]: http://en.wikipedia.org/wiki/XPointer "XPath / XPointer"
+[xpath]: https://en.wikipedia.org/wiki/XPointer "XPath / XPointer"
 [svg]: http://www.w3.org/TR/SVG/ "Scalabe Vector Graphics"
 [css]: http://www.w3.org/TR/CSS/ "Cascading Style Sheets"
 [semver]: http://semver.org/spec/v2.0.0.html "Semantic Versioning 2.0.0"
