@@ -7,6 +7,7 @@ before_install:
   - npm install -g grunt-cli
   - export gitbranch=`git branch |grep "\*"| sed 's/* //g'`
   - echo "branch $gitbranch"
+  - echo "travis: $TRAVIS_BRANCH"
 
 install:
   - bundle install
