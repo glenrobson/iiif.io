@@ -11,9 +11,8 @@ install:
   - npm install grunt grunt-html --save-dev
 
 script: 
-  - export gitbranch=`git branch |grep "\*"| sed 's/* //g'`
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then gitbranch=$TRAVIS_BRANCH; else gitbranch="pullrequest"; fi
   - echo "branch $gitbranch"
-  - echo "travis: $TRAVIS_BRANCH"
   - rake ci
 
 # environment
