@@ -5,15 +5,16 @@ dist: precise
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - npm install -g grunt-cli
-  - export gitbranch=`git branch |grep "\*"| sed 's/* //g'`
-  - echo "branch $gitbranch"
-  - echo "travis: $TRAVIS_BRANCH"
 
 install:
   - bundle install
   - npm install grunt grunt-html --save-dev
 
-script: rake ci
+script: 
+  - export gitbranch=`git branch |grep "\*"| sed 's/* //g'`
+  - echo "branch $gitbranch"
+  - echo "travis: $TRAVIS_BRANCH"
+  - rake ci
 
 # environment
 language: ruby
