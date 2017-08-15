@@ -140,8 +140,8 @@ Editors may be dismissed from work on a specification, or the editorial group al
 [merging-changes]: #acceptance-criteria-for-merging-changes "2.2 Acceptance Criteria for Merging Changes"
 [rfc-2119]: https://www.ietf.org/rfc/rfc2119.txt "RFC 2119"
 [spec-disclaimer]: /api/annex/notes/disclaimer/ "Specification Disclaimer"
-[mou]: /community/consortium/mou/ "Memorandum of Understanding covering the establishment of the IIIF Consortium"
-[comm-call]: /community/call/
-[groups]: /community/groups/
+[mou]: {{page.webprefix}}/community/consortium/mou/ "Memorandum of Understanding covering the establishment of the IIIF Consortium"
+[comm-call]: {{page.webprefix}}/community/call/
+[groups]: {{page.webprefix}}/community/groups/
 [design-patterns]: /api/annex/notes/design_patterns/
 {% include acronyms.md %}
