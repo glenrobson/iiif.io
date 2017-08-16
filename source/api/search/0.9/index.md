@@ -720,26 +720,26 @@ Many thanks to the members of the [IIIF][iiif-community] for their continuous en
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons &mdash; Attribution 4.0 International"
 [iiif-discuss]: mailto:iiif-discuss@googlegroups.com "Email Discussion List"
-[versioning]: /api/annex/notes/semver/ "Versioning of APIs"
+[versioning]: {{ site.url }}{{ site.baseurl }}/api/annex/notes/semver/ "Versioning of APIs"
 [mellon]: http://www.mellon.org/ "The Andrew W. Mellon Foundation"
 [semver]: http://semver.org/spec/v2.0.0.html "Semantic Versioning 2.0.0"
 [iiif-community]: {{page.webprefix}}/community/ "IIIF Community"
-[stable-version]: /api/search/{{ site.search_api.latest.major }}.{{ site.search_api.latest.minor }}/ "Stable Version"
-[paging]: /api/presentation/2.0/
+[stable-version]: {{ site.url }}{{ site.baseurl }}/api/search/{{ site.search_api.latest.major }}.{{ site.search_api.latest.minor }}/ "Stable Version"
+[paging]: {{ site.url }}{{ site.baseurl }}/api/presentation/2.0/
 
-[image-api]: /api/image/2.0/ "Image API"
+[image-api]: {{ site.url }}{{ site.baseurl }}/api/image/2.0/ "Image API"
 [openanno]: http://www.openannotation.org/spec/core/ "Open Annotation"
-[prezi-api]: /api/presentation/2.0/ "Presentation API"
+[prezi-api]: {{ site.url }}{{ site.baseurl }}/api/presentation/2.0/ "Presentation API"
 [rfc-2119]: http://tools.ietf.org/html/rfc2119
-[service-annex]: /api/annex/services/
-[prezi-annolist]: /api/presentation/2.0/#other-content-resources
-[prezi-layer]: /api/presentation/2.0/#Layers
+[service-annex]: {{ site.url }}{{ site.baseurl }}/api/annex/services/
+[prezi-annolist]: {{ site.url }}{{ site.baseurl }}/api/presentation/2.0/#other-content-resources
+[prezi-layer]: {{ site.url }}{{ site.baseurl }}/api/presentation/2.0/#Layers
 [ignored-parameters]: #ignored-parameters
 [oa-textquotesel]: http://www.openannotation.org/spec/core/
 
-[icon-req]: /img/metadata-api/required.png "Required"
-[icon-recc]: /img/metadata-api/recommended.png "Recommended"
-[icon-opt]: /img/metadata-api/optional.png "Optional"
-[icon-na]: /img/metadata-api/not_allowed.png "Not allowed"
+[icon-req]: {{ site.url }}{{ site.baseurl }}/img/metadata-api/required.png "Required"
+[icon-recc]: {{ site.url }}{{ site.baseurl }}/img/metadata-api/recommended.png "Recommended"
+[icon-opt]: {{ site.url }}{{ site.baseurl }}/img/metadata-api/optional.png "Optional"
+[icon-na]: {{ site.url }}{{ site.baseurl }}/img/metadata-api/not_allowed.png "Not allowed"
 
 {% include acronyms.md %}
