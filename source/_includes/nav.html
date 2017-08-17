@@ -1,7 +1,6 @@
 <div class="header-container">
       <header class="wrapper clearfix">
-        <a class="title" title="IIIF : International Image Interoperability Framework" href="{{page.webprefix}}/">Home</a>
-<!--		  [Home]({{page.webprefix}}) {: .title title="IIIF : International Image Interoperability Framework"}-->
+        <a class="title" title="IIIF : International Image Interoperability Framework" href="/">Home</a>
         <nav>
           <ul>
           {% for item in site.data.navigation %}
@@ -11,7 +10,7 @@
               {% assign class = '' %}
             {% endif %}
             <li>
-              <a href="{{ page.webprefix }}{{ item.url }}" class="{{ class }}">{{ item.name }}</a>
+              <a href="{{ item.url }}" class="{{ class }}">{{ item.name }}</a>
             </li>
           {% endfor %}
           </ul>
